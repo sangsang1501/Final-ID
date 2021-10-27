@@ -1,0 +1,135 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Alegreya', serif;
+}
+.container{
+	width: 1440px;
+	margin: 0 auto;
+}
+.container-2{
+	width: 1000px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.tren{
+	align-self: flex-start;
+}
+.giua{
+	align-self: center;
+}
+.duoi{
+	align-self: flex-end
+}
+/*column*/
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%
+}
+.p-1{
+	padding: 4px;
+}
+.p-2{
+	padding: 8px;
+}
+.p-3{
+	padding: 12px;
+}
+.p-4{
+	padding: 16px;
+}
+.p-5{
+	padding: 20px;
+}
+.p-6{
+	padding: 24px;
+}
+.p-10{
+	padding: 40px;
+}
+.pl-10{
+	padding-left: 40px;
+}
+.px-4{
+	padding: 0 12px;
+}
+.py-4{
+	padding: 12px 0;
+}
+.pt-8{
+	padding-top: 32px;
+}
+.pt-12{
+	padding-top: 48px;
+}
+.pt-20{
+	padding-top: 80px;
+}
+.pb-8{
+	padding-bottom: 32px;
+}
+.pb-12{
+	padding-bottom: 48px;
+}
+.pb-15{
+	padding-bottom: 60px;
+}
+.mt-15{
+	margin-top: 60px;
+}
+.mt-18{
+	margin-top: 72px;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-center{
+	justify-content: center;
+}
+.align-center{
+	align-items: center;
+}
+.tar{
+	text-align: right;
+}
+hr{
+	margin: 20px 0;
+}

@@ -1,0 +1,121 @@
+/* CSS Document */
+.header{
+	position: fixed;
+	width: 100%;
+	background-image: url("../img/ea-hero-medium-pvz2-homepage-7x2-xl.png.adapt.crop7x2.1920w.png");
+/*	background-color: rgba(0,255,60,0.47);*/
+}
+.logo img{
+	width: 50%;
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+}
+.nav li{
+	margin: 0 16px;
+}
+.nav li a{
+	-webkit-text-stroke-width: 1px;
+ 	-webkit-text-stroke-color: black;
+	font-family: 'Alegreya', serif;
+	font-size: 25px;
+	text-decoration: none;
+	color: #000000;
+}
+.nav li a:hover{
+	color: #254A1D;
+}
+.btn{
+	padding: 8px 20px;
+	text-decoration: none;
+	color: aliceblue;
+	background: rgba(6,172,61,1.00);
+	border-radius: 20px;
+}
+.banner{
+	text-align: center;
+	background-size: cover;
+	background-image: url("../img/ea-hero-medium-pvz2-homepage-7x2-xl.png.adapt.crop5x2.1455w.png");
+	background-repeat: no-repeat;
+}
+.banner-feature{
+	text-align: center;
+	background-size: cover;
+	background-image: url("../img/ea-hero-medium-pvz2-news-7x2-xl.png.adapt.crop5x2.1455w.png");
+	background-repeat: no-repeat;
+}
+.banner-plant{
+	text-align: center;
+	background-size: cover;
+	background-image: url("../img/ea-hero-medium-pvz2-plants-7x2-xl.png.adapt.crop5x2.1455w.png");
+	background-repeat: no-repeat;
+}
+.banner-zombie{
+	text-align: center;
+	background-size: cover;
+	background-image: url("../img/EA_Header_small_pvz2-news-XL.jpg.adapt.1456w.jpg");
+	background-repeat: no-repeat;
+}
+.main{
+	
+	background-size: cover;
+}
+h1{
+	-webkit-text-stroke-width: 1px;
+ 	-webkit-text-stroke-color: black;
+	font-size: 55px;
+}
+.plants{
+	background-image: url("../img/2.jpg");
+	background-attachment: fixed;
+	width: 100%;
+}
+.plants-pla{
+	background-image: url("../img/2.jpg");
+	background-attachment: fixed;
+	width: 100%;
+}
+.features{
+	background-image: url("../img/backgrounds-ea-pvz2-bg-xl.jpg.adapt.1920w.jpg");
+}
+.features-fea{
+	background-image: url("../img/backgrounds-ea-pvz2-bg-xl.jpg.adapt.1920w.jpg");
+	background-attachment: fixed;
+	width: 100%;
+}
+.features-fea img{
+	width: 80%;
+}
+.features img{
+	width: 80%;
+}
+/*
+.zombies{
+	background-image: url("../img/2.jpg")
+}
+*/
+.zombies img{
+	width: 40%;
+}
+.zombies-zom{
+	background-image: url("../img/2.jpg");
+	background-attachment: fixed;
+	width: 100%;
+}
+.zombies-zom img{
+	width: 40%;
+}
+.videoo{
+	background-image: url("../img/backgrounds-ea-pvz2-bg-xl.jpg.adapt.1920w.jpg");
+	text-align: center;
+}
+.video{
+	width: 100%;
+}
+.footer{
+	background-image: url("../img/Background1.jpg");
+	background-size: cover;
+	text-align: center;
+/*	background-repeat: no-repeat;*/
+}
